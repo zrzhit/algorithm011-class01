@@ -125,5 +125,5 @@ eg:   google search： source stack java （stack的java实现）    java source
 swift对栈的简单实现：https://segmentfault.com/a/1190000015214660
 
 
-涉及到链表的操作，尽量在纸上把过程先画出来，再写程序
-
+涉及到链表的操作，尽量在纸上把过程先画出来，再写程序  
+链表各种简单基本算法：https://xie.infoq.cn/article/eec883daf43bbc3c35acfaf91
