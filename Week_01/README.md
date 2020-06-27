@@ -1,7 +1,7 @@
 
 ## 基础知识整理
 
-### 数组
+#### 数组 array
 时间复杂度
 | prepend | append | lookup | insert | delete |
 | ------  | ------ | ------ | ------ | ------ |
@@ -10,7 +10,7 @@
 > TIP:  prepend操作正常情况下时间复杂度O(n), 但是可以优化到O(1)。申请稍大的内存空间，数组的开始预留一部分，prepend操作则是将头下标前移一个位置
 
 
-### 链表
+#### 链表 linked list
 时间复杂度
 | prepend | append | lookup | insert | delete |
 | ------  | ------ | ------ | ------ | ------ |
@@ -20,14 +20,14 @@
 > 工程应用： [LRUCache使用linkedlist实现](https://www.jianshu.com/p/b1ab4a170c3c)
 
 
-### 跳表
+#### 跳表 
 跳表的使用 只能用于链表里的元素有序的情况。  
 跳表 是一种 插入/删除/搜索 都是O(log n)的数据结构， 对标的平衡树和二分查找。  
 空间复杂度 O(n)  时间复杂度O(log n)
 > 理解：跳表的产生是基于链表的查询操作较复杂而优化产生的，一维的链表升维到二维（每一层链表提升高一级的索引链表）
 
 
-### 栈 stack  
+#### 栈 stack  
 时间复杂度
 | lookup | insert | delete |
 | ------ | ------ | ------ |
@@ -36,7 +36,7 @@
 特性： FILO
 
 
-### 队列  queue
+#### 队列  queue
 时间复杂度
 | lookup | insert | delete |
 | ------ | ------ | ------ |
@@ -50,7 +50,7 @@ Priority Queue:
 3. 底层具体实现的数据结构较为多样和复杂:heap、bst（二叉搜索树）、treap  
 
 
-### 双端队列 Deque
+#### 双端队列 Deque
 时间复杂度
 | lookup | insert | delete |
 | ------ | ------ | ------ |
@@ -59,7 +59,7 @@ Priority Queue:
 特性： 双端都可以插入和pop
 
 
-### 扩展
+#### 扩展
 
 google search case
 ```
@@ -78,7 +78,7 @@ eg:   google search： source stack java （stack的java实现）    java source
 ## 算法思路总结
 以下记录一些刷题过程中的自己的理解
 
-### 训练题目
+#### 训练题目
 * [leetcode 20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)   
 ```
 归纳理解：
@@ -103,7 +103,7 @@ eg:   google search： source stack java （stack的java实现）    java source
 ```
 
 
-### 感兴趣的题目（常听到的题目）
+#### 感兴趣的题目（常听到的题目）
 * [单链表反转](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/)
 ```
 1. 双指针反转 (思路简单 比较容易想到)
