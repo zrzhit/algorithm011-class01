@@ -104,7 +104,15 @@ eg:   google search： source stack java （stack的java实现）    java source
 
 
 ### 感兴趣的题目（常听到的题目）
-* 单链表反转
+* [单链表反转](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/)
+```
+1. 双指针反转 (思路简单 比较容易想到)
+2. 递归  
+   核心语句 head.next.next = head  将head与head的next节点做反转
+   递归的作用： 理解为倒序遍历的作用
+
+```
+
 
 
 
@@ -112,9 +120,10 @@ eg:   google search： source stack java （stack的java实现）    java source
 链表工程应用 ->  [LRU Cache]((https://www.jianshu.com/p/b1ab4a170c3c))  
 升维 + 空间换时间  ->    跳表的产生  
 最近相关性（内外扩散）->  栈
-
 如果某个元素被使用后可以舍弃，后续都有类似的结论  -> 可以考虑栈的结构
 
 swift对栈的简单实现：https://segmentfault.com/a/1190000015214660
 
+
+涉及到链表的操作，尽量在纸上把过程先画出来，再写程序
 
